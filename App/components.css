@@ -1,0 +1,20 @@
+.titleLabel {
+    color: #1E2125;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sectionTitleLabel {
+    color: #7F8EA6;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bodyText {
+    color: #47576F;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
