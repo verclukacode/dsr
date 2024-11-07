@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="components.css">
     <title>Title</title>
 </head>
-<body>
+<body style="padding: 0; margin: 0">
+<div style="display: flex; flex-direction: row; padding: 0; margin: 0">
+    <!-- Sidebar -->
+    <div class="rightSeparator" style="width: 20vw; height: 95vh; padding-left: 30px; padding-right: 30px; margin: 0">
+        <div class="navigationDiv">
+            <h1 class="titleLabel" style="color: #2A56FF; height: 45px; padding: 0;">vercluka</h1>
+        </div>
+        <div class="scrollableContent" style="height: calc(95vh - 110px - 30px)">
+            <!-- Smart folders nav -->
+            <div style="display: flex; flex-direction: row; width: 100%; height: 20px; justify-content: space-between; align-items: center; margin-bottom: 30px">
+                <h2 class="sectionTitleLabel">Smart Folders</h2>
+                <button class="addButton">Add</button>
+            </div>
+            <!-- Folders -->
+            <div class="folderDiv" style="background-color: #FFFFFF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/house/nonSelected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #47576F">Home</h3>
+            </div>
+            <div class="folderDiv" style="background-color: #FFFFFF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/computer/nonSelected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #47576F">Work</h3>
+            </div>
+            <div class="folderDiv" style="background-color: #FFFFFF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/book/nonSelected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #47576F">School</h3>
+            </div>
+            <div class="folderDiv" style="background-color: #FFFFFF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/list/nonSelected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #47576F">Other</h3>
+            </div>
+            <!-- My folders nav -->
+            <div style="display: flex; flex-direction: row; width: 100%; height: 20px; justify-content: space-between; align-items: center; margin-bottom: 30px; margin-top: 60px">
+                <h2 class="sectionTitleLabel">My Folders</h2>
+                <button class="addButton">Add</button>
+            </div>
+            <!-- Folders -->
+            <div class="folderDiv" style="background-color: #2A56FF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/house/selected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #FFFFFF">Home</h3>
+            </div>
+            <div class="folderDiv" style="background-color: #FFFFFF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/computer/nonSelected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #47576F">Work</h3>
+            </div>
+            <div class="folderDiv" style="background-color: #FFFFFF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/book/nonSelected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #47576F">School</h3>
+            </div>
+            <div class="folderDiv" style="background-color: #FFFFFF">
+                <img class="icon" style="margin-left: 10px; margin-right: 10px" src="Icons/list/nonSelected.png" alt="Icon">
+                <h3 class="sectionTitleLabel" style="height: max-content; color: #47576F">Other</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Tasks -->
+    <div class="rightSeparator" style="width: 40vw; height: 95vh; padding-left: 30px; padding-right: 30px; margin: 0">
+        <div class="navigationDiv">
+            <h1 class="titleLabel" style="color: #1E2125; height: 45px; padding: 0;">Home</h1>
+        </div>
+        <div class="scrollableContent" style="height: calc(95vh - 110px - 30px)">
 
+        </div>
+    </div>
+    <!-- Edit task -->
+    <div class="rightSeparator" style="width: 40vw; height: 95vh; padding: 0; margin: 0">
+
+    </div>
+</div>
 </body>
 </html>
