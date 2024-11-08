@@ -44,8 +44,27 @@
     border-width: 0;
 }
 
+.circle {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: transparent;
+    border-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
 .background {
     background-color: #FFFFFF;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 .rightSeparator {
@@ -74,6 +93,8 @@
     object-fit: contain;
     width: 35px;
     height: 35px;
+    padding: 0;
+    margin: 0;
 }
 
 .navigationDiv {
@@ -82,4 +103,5 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
