@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="components.css">
-    <title>Title</title>
+    <title>Todo App</title>
 </head>
 <body class="background" style="padding: 0; margin: 0">
 <div style="display: flex; flex-direction: row; padding: 0; margin: 0">
